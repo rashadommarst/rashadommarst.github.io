@@ -3,5 +3,5 @@
   Website
 
   
-  [a link](https://github.com/rashadommarst/att-calc/main/index.html)
+  [a link](google.com)
   
