@@ -108,7 +108,7 @@ section {
 }
 
 .project-box {
-    width: calc(33.33% - 2rem); /* Adjust width based on the number of project boxes */
+    width: calc(25rem); /* Adjust width based on the number of project boxes */
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
