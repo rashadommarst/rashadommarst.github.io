@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Body styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -63,8 +64,8 @@ section {
 }
 
 #home p {
-    font-size: 1.6rem; /* Increased font size for better readability */
-    margin-bottom: 3rem; /* Increased margin for better spacing */
+    font-size: 1.5rem; /* Increased font size for better readability */
+    margin-bottom: 2rem; /* Increased margin for better spacing */
     line-height: 1.8; /* Increased line height for improved readability */
 }
 
@@ -96,24 +97,32 @@ section {
 #projects h2 {
     font-size: 3.5rem; /* Increased font size for emphasis */
     margin-bottom: 2rem; /* Increased margin for better spacing */
+    padding-left: 2rem;
     color: #2e8b57; /* Kelly green */
     text-transform: uppercase;
 }
 
-/* Project box styles */
+/* Projects section styles */
+#projects {
+    background-color: #f9f9f9;
+    padding: 2rem 0;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
 .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+    display: flex; /* Use flexbox */
+    flex-wrap: nowrap; /* Prevent wrapping of project boxes */
+    padding: 0 1rem; /* Add some padding for spacing */
 }
 
 .project-box {
+    flex: 0 0 auto; /* Maintain the initial size of project boxes */
     width: calc(25rem); /* Adjust width based on the number of project boxes */
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 2rem;
-    margin: 1rem;
+    margin: 0 1rem; /* Add margin for spacing between project boxes */
     text-align: center;
     transition: transform 0.3s ease;
 }
@@ -148,6 +157,7 @@ section {
 .project-link:hover {
     background-color: #006400; /* Dark green */
 }
+
 
 /* Education section styles */
 #education {
@@ -203,4 +213,31 @@ section {
     line-height: 1.8;
     color: #555;
 }
+
+/* Scroll-to-top button styles */
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2e8b57; /* Kelly green */
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-to-top-button:hover {
+    background-color: #006400; /* Dark green */
+}
+
+
+
 
