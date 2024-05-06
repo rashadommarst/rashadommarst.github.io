@@ -1,0 +1,118 @@
+/* Reset default browser styles */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+
+h1 {
+	text-align: center;
+	margin: 10px 0 20px 0;
+}
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Form styling */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Result styling */
+#result {
+    display: none;
+    margin-top: 20px;
+}
+
+#result h2 {
+    margin-bottom: 10px;
+}
+
+#result p {
+    margin: 5px 0;
+}
+
+/* Update styles for the result section */
+.result-section {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* Style for result heading */
+.result-heading {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for attendance percentage */
+.attendance-percentage {
+	font-style:sans-serif;
+    font-size: 20px;
+    color: #45a049; /* Green color */
+    margin-bottom: 5px;
+}
+
+/* Style for additional hours */
+.additional-hours {
+    font-size: 20px;
+    color: #45a049; /* Orange color */
+    margin: 5px 0;
+}
+
+/* Hover effect for result section 
+.result-section:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+/* Style for attendance percentage value */
+.attendance-percentage-value {
+    text-decoration: underline;
+}
+
+/* Style for additional hours value */
+.additional-hours-value {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
